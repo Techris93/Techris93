@@ -15,7 +15,7 @@
 
 ## Profile
 
-I am a cybersecurity researcher and engineer based in Istanbul, Türkiye. I hold an MSc in Cybersecurity from Üsküdar University, completed with a CGPA of 3.84/4.00 and High Honour, and a BSc in Biochemistry from the University of Port Harcourt.
+I am a cybersecurity researcher and engineer based in Istanbul, Türkiye. I hold an MSc in Cybersecurity from Üsküdar University, completed with High Honour, and a BSc in Biochemistry from the University of Port Harcourt.
 
 My work combines malware analysis, software-supply-chain security, machine learning, security operations, and the design of systems that keep evidence, uncertainty, and human responsibility visible. I am the sole creator of **SecOpsAI**, a local-first platform for security telemetry, investigations, package research, detection learning, and controlled publication.
 
