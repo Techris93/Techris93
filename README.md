@@ -1,4 +1,4 @@
-<h1 align="center">Christopher Agada</h1>
+<h1 align="center">Onyedika Christopher Agada</h1>
 
 <p align="center">
   <strong>Cybersecurity engineer building evidence-first security tools and practical AI systems.</strong>
