@@ -10,7 +10,7 @@
   <a href="https://blog.secopsai.dev">Security research</a>
 </p>
 
-I work where security operations, AI agents, and cloud systems meet. My projects favor deterministic evidence, explicit human approval, and local-first operation—so automation helps analysts without hiding how decisions are made.
+I work where security operations, AI agents, and cloud systems meet. My projects favor deterministic evidence, explicit human approval, and local-first operation, so automation helps analysts without hiding how decisions are made.
 
 Based in Istanbul, Türkiye.
 
@@ -20,8 +20,6 @@ Based in Istanbul, Türkiye.
 | --- | --- |
 | **[SecOpsAI](https://github.com/Techris93/secopsai)** | Unifies agent and host telemetry, software supply-chain intelligence, evidence-backed triage, and approval-gated automation in a local-first security platform. |
 | **[SecOpsAI Mission Control](https://github.com/Techris93/secopsai-dashboard)** | Gives operators one place to review findings, investigations, research, automation, and protected security publishing. |
-| **[OpenSentinel](https://github.com/Techris93/OpenSentinel)** | Combines natural-language Splunk queries, MITRE ATT&CK-aligned detections, threat hunting, incident workflows, and automated response. |
-| **[SecOps Autoresearch](https://github.com/Techris93/secops-autoresearch)** | Reproducibly tunes detection rules against labeled security events and measures each change with precision, recall, and F1. |
 
 ## Current focus
 
