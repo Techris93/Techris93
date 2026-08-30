@@ -1,37 +1,79 @@
 <h1 align="center">Onyedika Christopher Agada</h1>
 
 <p align="center">
-  <strong>Cybersecurity engineer building evidence-first security tools and practical AI systems.</strong>
+  <strong>Cybersecurity and machine-learning researcher building evidence-grounded systems for trustworthy security decisions.</strong>
 </p>
 
 <p align="center">
-  <a href="https://secopsai.dev">Website</a> ·
-  <a href="https://docs.secopsai.dev">Documentation</a> ·
-  <a href="https://blog.secopsai.dev">Security research</a>
+  <a href="https://www.secopsai.dev/">SecOpsAI</a> ·
+  <a href="https://docs.secopsai.dev/">Documentation</a> ·
+  <a href="https://blog.secopsai.dev/">Research blog</a> ·
+  <a href="https://orcid.org/0009-0003-4337-597X">ORCID</a> ·
+  <a href="https://doi.org/10.58970/JSR.1135">Publication</a> ·
+  <a href="https://www.linkedin.com/in/onyedika-agada">LinkedIn</a>
 </p>
 
-I work where security operations, AI agents, and cloud systems meet. My projects favor deterministic evidence, explicit human approval, and local-first operation, so automation helps analysts without hiding how decisions are made.
+## Profile
 
-Based in Istanbul, Türkiye.
+I am a cybersecurity researcher and engineer based in Istanbul, Türkiye. I hold an MSc in Cybersecurity from Üsküdar University, completed with a CGPA of 3.84/4.00 and High Honour, and a BSc in Biochemistry from the University of Port Harcourt.
+
+My work combines malware analysis, software-supply-chain security, machine learning, security operations, and the design of systems that keep evidence, uncertainty, and human responsibility visible. I am the sole creator of **SecOpsAI**, a local-first platform for security telemetry, investigations, package research, detection learning, and controlled publication.
+
+## Research interests
+
+- Evidence-grounded generative and agentic AI for cybersecurity
+- Malware classification and software-supply-chain threat analysis
+- Causal, explainable, and uncertainty-aware machine learning
+- Knowledge representation, provenance, and formal reasoning for reliable systems
+- Human oversight, abstention, auditability, and rollback in automated decisions
+- Privacy-conscious and local-first security architecture
+
+These are active research directions. I distinguish them from capabilities already validated through completed experiments or publications.
+
+## SecOpsAI
+
+| Component | Purpose |
+| --- | --- |
+| **[SecOpsAI Core](https://github.com/Techris93/secopsai)** | Evidence-first triage, package research, asset graphs, detection workflows, agent telemetry, and guarded automation. |
+| **[Mission Control](https://github.com/Techris93/secopsai-dashboard)** | Operator interface for findings, investigations, research cases, automation, disclosure, and reviewed publication. |
+| **SecOpsAI Edge** | Local sensor for authorised asset discovery, risky-service detection, change tracking, and normalised Core ingestion. |
+| **Research workflow** | Safe artefact intake, static analysis, package comparison, evidence provenance, IOC review, disclosure controls, and publication gates. |
+
+SecOpsAI treats model output as analytical assistance, not evidence. High-impact actions remain bounded by explicit approval, audit records, and reproducible inputs.
 
 ## Selected work
 
-| Project | What it does |
+| Project | Focus |
 | --- | --- |
-| **[SecOpsAI](https://github.com/Techris93/secopsai)** | Unifies agent and host telemetry, software supply-chain intelligence, evidence-backed triage, and approval-gated automation in a local-first security platform. |
-| **[SecOpsAI Mission Control](https://github.com/Techris93/secopsai-dashboard)** | Gives operators one place to review findings, investigations, research, automation, and protected security publishing. |
+| **[Malware Detection on an Optimised Edge Device](https://github.com/Techris93/Malware_Detection_on_Optimized_Edge_Device)** | Transfer learning, model optimisation, ONNX inference, and low-latency Android deployment. |
+| **[Deep Learning Malware Classification](https://github.com/Techris93/Deep_Learning_Based_Malware_Classification)** | CNN-based malware-family classification and experimental evaluation. |
+| **[AI-Powered SOC Agent](https://github.com/Techris93/AI_Powered_SOC_Agent)** | Bounded natural-language security analysis and structured incident reporting. |
+| **[AWS Bedrock RAG Project](https://github.com/Techris93/AWS-BEDROCK-PROJECT)** | Terraform-deployed retrieval workflow using Bedrock, Aurora PostgreSQL with pgvector, S3, and scoped IAM. |
+| **[SecOps Autoresearch](https://github.com/Techris93/secops-autoresearch)** | Controlled detection optimisation with evaluation, feedback, and rollback-oriented workflows. |
 
-## Current focus
+## Publication and thesis
 
-- Security telemetry and detection for AI agents
-- Software supply-chain intelligence and no-execution artifact analysis
-- Explainable, approval-gated automation for security teams
-- Reproducible cloud security and generative AI infrastructure
+**Agada, O. C. (2025).** “From Training to Edge Inference: A Transfer Learning Pipeline for Low-Latency Malware Classification on Snapdragon-Enabled Samsung Galaxy S23 Ultra (Android 13).” *Journal of Scientific Reports*, 11(1), 51–64. [DOI: 10.58970/JSR.1135](https://doi.org/10.58970/JSR.1135)
 
-## Toolbox
+My MSc thesis, **“A Comparative Analysis of Transfer Learning Approaches for Malware Classification Using Convolutional Neural Networks,”** compared transfer-learning architectures on malware-family datasets using accuracy, precision, recall, F1-score, AUC, confusion matrices, class-imbalance analysis, and generalisation checks. YÖK National Thesis Center Reference No. 10700043.
 
-`Python` · `TypeScript` · `JavaScript` · `FastAPI` · `Terraform` · `AWS` · `Google Cloud` · `Splunk` · `SQLite` · `Cloudflare`
+## Working principles
 
-## Let’s build safer systems
+- Preserve the source and provenance of every material claim.
+- Separate observed facts, reasoned inferences, model suggestions, and unsupported conclusions.
+- Never execute untrusted packages on an operator or application host.
+- Require explicit approval for sandbox execution, disclosure, mitigation, and publication.
+- Evaluate detection changes on holdout data before controlled activation.
+- Record negative results, limitations, tool versions, and recovery paths.
 
-I’m interested in thoughtful collaboration around AI security, detection engineering, and defensible automation. Start with the [SecOpsAI contributing guide](https://github.com/Techris93/secopsai/blob/main/CONTRIBUTING.md) or [open an issue](https://github.com/Techris93/secopsai/issues) with a concrete idea.
+## Tools
+
+`Python` · `FastAPI` · `PyTorch` · `TensorFlow` · `ONNX Runtime` · `JavaScript` · `Bash` · `SQL` · `PostgreSQL` · `Docker` · `Terraform` · `AWS` · `Google Cloud` · `Cloudflare` · `GitHub Actions`
+
+## Contact
+
+- Research collaboration: [research@secopsai.dev](mailto:research@secopsai.dev)
+- Security and vulnerability correspondence: [security@secopsai.dev](mailto:security@secopsai.dev)
+- Project discussions: [SecOpsAI issues](https://github.com/Techris93/secopsai/issues)
+
+For research or security reports, include reproducible evidence, affected versions or systems, collection dates, and the limits of the available evidence.
