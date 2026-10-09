@@ -36,7 +36,7 @@ These are active research directions. I distinguish them from capabilities alrea
 | --- | --- |
 | **[SecOpsAI Core](https://github.com/Techris93/secopsai)** | Evidence-first triage, package research, asset graphs, detection workflows, agent telemetry, and guarded automation. |
 | **[Mission Control](https://github.com/Techris93/secopsai-dashboard)** | Operator interface for findings, investigations, research cases, automation, disclosure, and reviewed publication. |
-| **SecOpsAI Edge** | Local sensor for authorised asset discovery, risky-service detection, change tracking, and normalised Core ingestion. |
+| **[SecOpsAI Edge](https://github.com/Techris93/secopsai-edge)** | Local sensor for authorised asset discovery, risky-service detection, change tracking, and normalised Core ingestion. |
 | **Research workflow** | Safe artefact intake, static analysis, package comparison, evidence provenance, IOC review, disclosure controls, and publication gates. |
 
 SecOpsAI treats model output as analytical assistance, not evidence. High-impact actions remain bounded by explicit approval, audit records, and reproducible inputs.
